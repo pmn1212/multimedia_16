@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>CL09: Simple Parallax</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Roboto:300,300i,400,400i,900,900i" rel="stylesheet">
+
+<script src="https://use.fontawesome.com/f350e3ea81.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<body onload="createGridder()">
+    
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="stylesheet" href="css/base.css">
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+    
+  </head>
+
+  <body>
+
+    <body>
+<header>
+  <div class="container">
+    <a href="#" class="branding">ING: a global financial institution</a>
+    <nav>
+      <ul class="navigation">
+       <li><a data-scroll-nav="0">Home</a>
+       </li>
+       <li><a data-scroll-nav="1">Products</a>
+       </li>
+       <li><a data-scroll-nav="2">Membership</a>
+    </ul>
+  </nav>
+  </div>      
+</header>
+
+<! --  Simple Parallax for each picture / change number -- >
+<section class="module parallax parallax-1"
+     <div class="container">
+            <h1>Sample</h1>
+    </div>
+</section>
+
+<! ------------------------------------------------->
+
+<section id="home" class="module content">
+  <div class="container">
+    <div class="home-content" data-scroll-index="0">
+    <h2 class="home-title">Home</h2>
+  </div>
+  <div class="columns_2">
+    <p>Lorem ipsum dolor sit amet, constectetur adipiscing elit Morbi nigbh mauris, macimus sit amet elit vitee fringilia ornage nisi Lorem ippsum dolor sit amet constec adipiscing elist Mor Nubn mauris maximys sit aamier figing aornaro</p>
+  </div>
+  <div class="columns_2">
+    <p>Lorem ipsum dolor sit amet, constectetur adipiscing elit Morbi nigbh mauris, macimus sit amet elit vitee fringilia ornage nisi Lorem ippsum dolor sit amet constec adipiscing elist Mor Nubn mauris maximys sit aamier figing aornaro</p>
+  </div>
+  </div> 
+</section>
+
+<! --  Simple Parallax for each picture / change number -- >
+<section class="module parallax parallax-2"
+         <div class="container">
+<h1>Sample</h1>
+</div>
+</section>
+<! ------------------------------------------------->
+
+<section id="products" class="module content">
+  <div class="container">
+    <div class="products-content" data-scroll-index="1">
+    <h2 class="products-title">Products</h2>
+  </div>
+  <div class="columns_2">
+    <p>Lorem ipsum dolor sit amet, constectetur adipiscing elit Morbi nigbh mauris, macimus sit amet elit vitee fringilia ornage nisi Lorem ippsum dolor sit amet constec adipiscing elist Mor Nubn mauris maximys sit aamier figing aornaro</p>
+  </div>
+  <div class="columns_2">
+    <p>Lorem ipsum dolor sit amet, constectetur adipiscing elit Morbi nigbh mauris, macimus sit amet elit vitee fringilia ornage nisi Lorem ippsum dolor sit amet constec adipiscing elist Mor Nubn mauris maximys sit aamier figing aornaro</p>
+  </div>
+  </div> 
+</section>
+
+<! --  Simple Parallax for each picture / change number -- >
+<section class="module parallax parallax-3"
+         <div class="container">
+<h1>Sample</h1>
+</div>
+</section>
+<! ------------------------------------------------->
+
+<section id="membership" class="module content">
+  <div class="container">
+    <div class="membership-content" data-scroll-index="2">
+    <h2 class="membership-title">Membership</h2>
+  </div>
+  <div class="columns_2">
+    <p>Lorem ipsum dolor sit amet, constectetur adipiscing elit Morbi nigbh mauris, macimus sit amet elit vitee fringilia ornage nisi Lorem ippsum dolor sit amet constec adipiscing elist Mor Nubn mauris maximys sit aamier figing aornaro</p>
+  </div>
+  <div class="columns_2">
+    <p>Lorem ipsum dolor sit amet, constectetur adipiscing elit Morbi nigbh mauris, macimus sit amet elit vitee fringilia ornage nisi Lorem ippsum dolor sit amet constec adipiscing elist Mor Nubn mauris maximys sit aamier figing aornaro</p>
+  </div>
+  </div> 
+</section>
+
+<section id="footer">
+  <div class="container">
+    <div class="footer-content">
+      <h5>2016  Dempsey Design | Interactiing with design. All rights reserved | Sources | Content</h5>
+      </div>
+      </div>
+      </section>
+      
+      <section id="infographic">
+  <div class="container">
+    <div class="info-items">
+      <div class="columns_2">
+        <div id="canvas-holder">
+             <canvas id="chart-area" width="700" height="700" />
+        </div>  
+     </div>
+      <div class="columns_2">
+        <h3>Lessons & Projects</h3>
+        <p>Lorem ipsum dolor sit amet, constectetur adipiscing elit Morbi nigbh mauris, macimus sit amet elit vitee fringilia ornage nisi Lorem ippsum dolor sit amet constec adipiscing elist Mor Nubn mauris maximys sit aamier figing aornaro</p>
+        <ol>
+          <li>Professionalism, Lessons and Participation (100pts)</li>
+          <li>Logo Design (250pts)</li>
+          <li>Stationery Design (250pts)</li>
+          <li>Style Guide (400pts)</li>
+        </ol>
+        <p><strong>Total Points:</strong> 1000</p>
+      </div>
+         </div>
+         </div>
+         </section>
+     
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="js/gridder.js"></script>
+<script src="js/scrollIt.min.js"></script>
+<script src="js/Chart.js"></script>
+<script src="js/Chart.Doughnut.js"></script>
+<script src="js/index.js"></script>
+
+
+<script>
+var doughnutData = [
+  
+  {
+    value: 250,
+    color: "#E9E9EA",
+    highlight: "#5AD3D1",
+    label: "Part 1: Logo Design (LD)"
+  }, {
+    value: 250,
+    color: "#DEDEDF",
+    highlight: "#FFC870",
+    label: "Part 2: Stationery Design (SD)"
+  }, {
+    value: 400,
+    color: "#C3C2C3",
+    highlight: "#A8B3C5",
+    label: "Part 3: Identity Manual (IM)"
+  }, {
+    value: 100,
+    color: "#AAAAAC",
+    highlight: "#FF5A5E",
+    label: "Professionalism"
+  }
+  
+];
+
+window.onload = function() {
+  var ctx = document.getElementById("chart-area").getContext("2d");
+  window.myDoughnut = new Chart(ctx).Doughnut(doughnutData, {
+    responsive: true
+  });
+};
+
+</script>
+
+    
+    
+  </body>
+</html>
